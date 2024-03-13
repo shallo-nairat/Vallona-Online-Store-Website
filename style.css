@@ -104,5 +104,24 @@
 }
 
 }
+@media screen  and (max-width:1000px){
+    .login{
+        display: flex;
+        gap: 120px;
+        background-color: green;
+        color: antiquewhite;
+    
+    }
+    .Images{
+        width: 600px;
+        height: 600px;
+    }
+    .firstrowplants{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+}
 
 
