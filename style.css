@@ -6,47 +6,52 @@
 
 }
 
+.nav{
+    width: 20px;
+    height: 20px;
+}
+.first{
+    display: flex;
+    justify-content: ;
+    gap: 20px;
+}
+
+
 .navbar{
     grid-area: 30px;
     text-align: center;
+    gap: 30px;
 }
 .Images{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 .plant1{
       display: flex;
       justify-self: center;
 
 }
-.orchid{
-    
-}
+
 #cactus1{
     display: flex;
     justify-content: baseline;
-    gap: 20px;
+    gap: 40px;
 }
 #cactus2{
     display: flex;
     justify-content: baseline;
-    gap: 20px;
+    gap: 40px;
 }
 .cactus3{
     display: flex;
     justify-content: baseline;
-    gap: 20px;
+    gap: 40px;
 }
 
-.firstrowplants{
+.plants{
     display: flex;
     justify-content: baseline;
     gap: 20px;
-}
-.secondrowplants{
- display: flex;
- justify-content: baseline;
- gap: 20px;
 }
 #featured{
     text-align: center;
@@ -67,61 +72,91 @@
 .container{
     margin: 100px 150px;
 }
-
-@media screen   and (max-width:900px){
-
-     .login{
-    display: flex;
-    gap: 20px;
-    background-color: green;
-    color: antiquewhite;
-    font-size: smaller;
-
+#Price{
+    text-align: center;
 }
-.Images{
-    width: 150px;
-    height: 150px;
-}
-.firstrowplants{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-.secondrowplants{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-   }
-   .firstflowers{
-    display: flex;
-   flex-wrap: wrap;}
-
-   .bottletree{
+.cactustree{
     display:flex ;
+    justify-content: baseline;
     gap: 20px;
-    flex-wrap: wrap;
-    font-size: small
 }
+#image31{
+    width: 250px;
+    height: 200px;
+}
+.Blog{
+    display:flex ;
+    justify-content: baseline;
+    gap: 20px;
+}
+#image35{
+    width: 100px;
+    height: 100px;
+}
+.testimonials{
+    width: 80px;
+    height: 80px;
+    gap: 40;
+}
+.icons{
+    width: 25px;
+    height: 25px;
+}
+.last{
+    display: flex;
+    justify-content: baseline;
+    gap:50px;
 
 }
-@media screen  and (max-width:1000px){
+.second{
+    display: flex;
+    gap: 30px;
+}
+.p{
+    display: flex ;
+
+}
+#image44{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+ @media screen  and (max-width:900px) {
     .login{
         display: flex;
-        gap: 120px;
+        gap: 100px;
         background-color: green;
         color: antiquewhite;
     
     }
-    .Images{
-        width: 600px;
-        height: 600px;
-    }
-    .firstrowplants{
+
+    .first{
         display: flex;
-        gap: 10px;
         flex-wrap: wrap;
     }
-    
-}
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .plants{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    .image44{
+     display: flex;
+     flex-wrap: wrap;
 
+    }
+    #featured{
+        text-align:20px ;
+    }
+ }
+    
+
+ 
+    
+ 
 
